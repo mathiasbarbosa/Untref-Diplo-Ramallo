@@ -1,0 +1,71 @@
+*{
+    /* color: red;
+    background-color: black; */
+    /* font-family:Arial, Helvetica, sans-serif */
+    font-family: 'Darumadrop One', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* @font-face {
+    font-family: 'tipografiaLocal' ;
+    src: url("../BebasNeue-Regular.ttf");
+} */
+
+body{
+    background-color: lightblue;
+}
+
+
+h1{
+    color: rgb(38, 91, 235);
+    /* font-family: 'tipografiaLocal'; */
+    font-family: 'Dancing Script', cursive;
+}
+
+h3{
+    color:  rgb(235, 127, 38);
+    background-color: rgba(235, 127, 38, 0.4) ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+} 
+
+/* h1{
+    color: blueviolet !important;
+} */
+
+p{
+    color: #000000;
+    font-size: 30px;
+}
+
+.parrafo{
+    color: aliceblue;
+    font-style: italic;
+}
+
+#tituloPrincipal{
+    color: rgb(235, 126, 38);
+}
+
+
+tr{
+    color: green;
+}
+
+#subTitulo{
+    color: #ffffff;
+}
+
+
+/* div p{
+    color: blue;
+} */
+
+div > p {
+    color: orange;
+}
+
+.sectionParrafo p{
+    color: red;
+}

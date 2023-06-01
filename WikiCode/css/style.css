@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.containerHeader{
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.title, .navList > ul > li > a {
+    color: #fff;
+}
+
+.title{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.navList{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.navItem{
+    display: inline;
+    margin: 0 10px;
+}
+
+.navItem > a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+main{
+    margin-top: 150px;
+}
+
+.containerSection{
+    padding: 20px;
+}
+
+.titleSection{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.containerSection > strong {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+.containerSection > img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.containerSection > p{
+    margin-top: 25px;
+    font-size: 23px;
+}
+
+
+.containerBtn{
+    margin-bottom: 20px;
+}
+
+#home{
+    display: block;
+    width: 100px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#home:hover{
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #222;
+}
+
+footer{
+    background-color: #222;
+    padding: 25px;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    
+    <!-- <style>
+        /* sintaxis de CSS */
+        /* selector {
+            propiedades a modificar 
+
+        } */
+
+        body{
+            background-color: lightblue;
+        }
+
+    </style> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+
+<body>
+    <h1 id="tituloPrincipal"> Aprendiendo HTML </h1>
+    
+    <h3 id="subTitulo">¿Que es HTML?</h3>
+
+    <p>HTML, siglas en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web. </p>
+
+    <h3>Etiqueta Img</h3>
+    <p class="parrafo">Categoria: En linea</p>
+    <!-- Imagen con ruta relativa -->
+    <img src="./multimedia/img/P.Redes1.png" width="100" height="100" alt="logo de la comunidad Programador Promedio" >
+    <p>La comunidad mas grande de programacion</p>
+    
+    <!-- Imagen con ruta absoluta -->
+    <img src="https://www.alura.com.br/artigos/assets/html-css-js/imagem-1.png" alt="Logo de HTML" width="100" height="100">
+
+    <h3>Etiqueta Figure</h3>
+    <p class="parrafo">Categoria: En linea</p>
+    <figure>
+        <img src="./multimedia/img/P.Redes1.png" alt="logo de la comunidad Programador Promedio" width="100" height="100">
+        <figcaption>La comunidad mas grande de programacion</figcaption>
+    </figure>
+
+    <h3>Etiqueta Audio</h3>
+    <p class="parrafo">Categoria: En linea</p>
+    <audio controls  muted>
+        <source src="./multimedia/audio/Boom Bap Flick - Quincas Moreira.ogg"> 
+        <source src="./multimedia/audio/Boom Bap Flick - Quincas Moreira.wav"> 
+        <source src="./multimedia/audio/Boom Bap Flick - Quincas Moreira.mp3"> 
+    </audio>
+
+    <h3>Etiqueta Video</h3>
+    <p class="parrafo">Categoria: En linea</p>
+    <video  controls  muted width="500" height="800">
+        <source src=".multimedi/video/addEvent.mpe"> 
+        <source src="./multimedia/video/addEvent.mp4">
+    </video>
+
+    
+    <h3>Etiqueta Video</h3>
+    <p class="parrafo">Categoria: En linea</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UvN1U_-MtNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1RKUoGiLEbcXN4GY4spQDx?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5307.295795606117!2d-57.93772991705542!3d-34.91285214109402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e61621b73869%3A0x32c529fe42daaa5d!2sEstadio%20UNO%20Jorge%20Luis%20Hirschi!5e0!3m2!1ses!2sar!4v1683761922469!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <iframe src="https://www.mercadolibre.com.ar/" width="500" height="400" frameborder="0"></iframe>
+
+
+    <h3>Etiqueta Table</h3>
+    <p class="parrafo">Categoria: En bloque</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Clase</th>
+                <th>Tema</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>00</td>
+                <td>Introduccion</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Prototipado</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>HTML 1</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>HTML 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, illum. Accusamus doloribus minima a explicabo quod expedita numquam facilis optio.</p>
+        <section class="sectionParrafo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nostrum aut impedit assumenda neque odit, in incidunt inventore est non!</p>
+        </section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta perferendis ratione commodi earum aperiam assumenda ad delectus asperiores ex nesciunt ea, dolorem repudiandae sint labore. Eum inventore sapiente, fuga, aperiam maiores veniam ad tempora necessitatibus fugiat atque et repellat soluta!</p>
+    </div>
+
+</body>
+</html>

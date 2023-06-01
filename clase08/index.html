@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- You should properly set the path from the main file. -->
+</head>
+<body>
+    <header>
+        
+        <h1>Contactanos</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iusto alias, eos ipsam sit totam consectetur et provident! Delectus, voluptatum.</p>
+        
+    </header>
+    <main class="container">
+        <section class="row">
+            <form class="column column-100">
+                <!-- nombre de la persona -->
+                <!-- <label for="nombre">Nombre</label> -->
+                <input type="text" name="nombre" placeholder="John" maxlength="20" minlength="6"  required>
+                <!-- email de la persona -->
+                <!-- <label for="email">Email</label> -->
+                <input type="email" name="email" placeholder="Doe" required>
+                
+                <input type="text" name="password" placeholder="contraseña" maxlength="10" minlength="8" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
+
+                <!-- <input type="number" name="telefono" placeholder="2213434567"> -->
+                <input type="tel" name="telefono" placeholder="2213434567">
+
+                <label for="fechaNacimiento">Fecha de nacimineto</label>
+                <input type="date" name="fechaNacimiento">
+                <input type="datetime">
+                <input type="time">
+
+                <!-- <input type="button">
+                <input type="checkbox">
+                <input type="color">
+                <input type="date">
+                <input type="datetime-local">
+                <input type="email">
+                <input type="file">
+                <input type="hidden">
+                <input type="image">
+                <input type="month">
+                <input type="number">
+                <input type="password">
+                <input type="radio">
+                <input type="range">
+                <input type="reset">
+                <input type="search">
+                <input type="submit">
+                <input type="tel">
+                <input type="text">
+                <input type="time">
+                <input type="url">
+                <input type="week"> -->
+
+                <textarea name="consulta" id="" cols="10" rows="10"></textarea>
+                <input type="submit" value="Enviar consulta">
+                <input type="reset">
+            </form>
+        </section>
+    </main>
+
+
+
+</body>
+</html>
