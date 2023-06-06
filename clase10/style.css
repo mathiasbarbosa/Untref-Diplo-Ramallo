@@ -1,0 +1,65 @@
+
+.box{
+    border: 1px solid red;
+    width: 400px;
+    height: 200px;
+}
+
+#center{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#left{
+    text-align: left;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    text-indent: 30px;
+    letter-spacing: -2px;
+}
+
+#right{
+    text-align: right;
+    text-decoration: overline;
+    text-shadow: 2px 2px  1px #222222;
+}
+
+#justify{
+    text-align: justify;
+    /* text-decoration: blink; */
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+ul{
+    margin: 30px;
+    padding: 50px;
+    /* list-style: none; */
+    list-style-image: url('https://placekitten.com/100/100');
+}
+
+#bgColor{
+    background-color: blueviolet;
+}
+
+#bgImage{
+    background-image: url('./multimedia/img/pRedes2.png');
+    background-repeat: no-repeat;
+    background-size: 50% auto; 
+    background-position: left center;
+}
+
+#bgAttachment{
+    width: 100%;
+    height: 300px;
+    border: 1px solid blue;
+    background-image: url('https://placekitten.com/1000/400');
+    background-attachment: fixed;
+}
+
+#urlLocal{
+    width: 300px;
+    height: 300px;
+    filter: invert(100%) grayscale(100%);
+}
