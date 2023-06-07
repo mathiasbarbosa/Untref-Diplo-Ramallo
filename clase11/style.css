@@ -1,0 +1,116 @@
+
+.box{
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+}
+
+#hidden{
+    overflow: hidden;
+}
+
+#scroll{
+    overflow: scroll;
+}
+
+#padding{
+    /* padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px; */
+                /* arriba derecha abajo izquierda */
+    /* padding: 20px 30px 40px 50px; */
+    padding: 20px 50px;
+}
+
+#border{
+    /* border-top: 5px dashed black; */
+    /* border-style: groove;
+    border-width: 6px;
+    border-radius: 5%;
+    border-color: aqua; */
+    border: 5px solid aquamarine;
+    border-radius: 30%;
+}
+
+#margin{
+    /* margin-left: 30px;
+    margin-top: 50px; */
+    /* margin: 50px 60px 80px 90px; */
+    margin: auto;
+}
+
+#borderRadius{
+    margin: auto;
+    border-radius: 50%;
+}
+
+img{
+    width: 200px;
+ 
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px  #22222232;
+}
+
+button{
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 10px #22222232 ;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.inline{
+    display: inline;
+}
+
+.display{
+    display: none;
+}
+
+.vhidden{
+    visibility: hidden;
+}
+
+/* #pRelative{
+    position: relative;
+    left: 150px;
+    bottom: 400px;
+} */
+
+/* #pAbsoluta{
+    position: absolute;
+    right: 1px;
+    bottom: 25px;
+    background-color: lightblue;
+} */
+
+.pAbsoluta{
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+
+#pRelative{
+    position: relative;
+}
+
+header{
+    background-color: lightcoral;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+}
+
+#sticky{
+    position: sticky;
+    top: 80px;
+}
