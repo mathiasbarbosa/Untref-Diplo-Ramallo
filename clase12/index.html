@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-clases</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    
+    <hr>
+    <div class="box">
+        <h2 class="title animate__animated animate__rubberBand">Hipervinculos</h2>
+        
+        <a href="" id="active">Item 1</a>
+        <a href="" id="link">Item 2</a>
+        <a href="" id="hover">Item 3</a>
+        <a href="" id="visited">Item 4</a>
+    </div>
+    <hr>
+    <br>
+
+    <hr>
+    <div class="box" id="box1">
+        <h2>Elementos de un contenedor</h2>
+        <h2>Elementos de un contenedor</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, doloribus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, doloribus!</p>
+        <a href="" id="link">Item 2</a>
+        <a href="" id="hover">Item 3</a>
+    </div>
+    <hr>
+    <br>
+
+    <hr>
+    <div class="box" id="box2">
+        <h2>Elementos de un contenedor</h2>
+        <h2>Elementos de un contenedor</h2>
+        <h2>otro titulo</h2>
+        <h2>Elementos de un contenedor</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, doloribus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, doloribus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, doloribus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, doloribus!</p>
+        <a href="" id="link">Item 2</a>
+        <a href="" id="hover">Item 3</a>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+    </div>
+    <hr>
+    <br>
+
+    <hr>
+    <div class="box" data-aos="flip-right" id="box3">
+        <h2>Only child</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nulla cum! Dolores similique culpa illo numquam ipsa quasi, molestias laboriosam!</p>
+        <h2>Only child</h2>
+    </div>
+    <hr>
+    <br>
+
+    <hr>
+    <div class="box">
+        <h2 class="title">Formularios</h2>
+        <form>
+            <input type="text" id="focus">
+            <input type="text" id="disabled" disabled>
+            <input type="email" id="valid" required>
+            <input type="text" class="required"  required>
+            <input type="text" class="required" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <br>
+
+    <hr>
+    <div class="box">
+        <h2 class="title">Transformaciones</h2>
+        <div class="boxItem" id="translate">
+        </div>
+        <br>
+        <div class="boxItem" id="rotate">
+        </div>
+        <br>
+        <div class="boxItem" id="scale">
+            <!-- <img src="https://placekitten.com/200/200" alt=""> -->
+            <!-- <img src="https://placedog.net/200/200" alt=""> -->
+        </div>
+        <br>
+        <div class="boxItem" id="skew">
+        </div>
+    </div>
+    <br>
+
+    <hr>
+    <div class="box" data-aos="flip-up">
+        <h2 class="title">Transition</h2>
+        <div class="boxItem" id="transition">
+        </div>
+        <br>
+        <div class="boxItem" id="rotate">
+        </div>
+        <br>
+        <div class="boxItem" id="scale">
+            <!-- <img src="https://placekitten.com/200/200" alt=""> -->
+            <!-- <img src="https://placedog.net/200/200" alt=""> -->
+        </div>
+        <br>
+        <div class="boxItem" id="skew">
+        </div>
+    </div>
+    <br>
+
+    
+    <hr>
+    <div class="box">
+        <h2 class="title">Animation</h2>
+        <div class="boxItem" id="animation">
+        </div>
+        <br>
+    </div>
+    <br>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
