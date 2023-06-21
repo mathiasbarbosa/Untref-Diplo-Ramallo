@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos seccion header */
+
+.header{
+    background-image: url('../multimedia/img/autoHerov3.jpg');
+    /* background-position: center ; */
+    background-position: 0% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 40px 10px;
+}
+
+.list-nav{
+    list-style: none;
+
+}
+
+.item-nav{
+    margin: 15px 0;
+}
+
+.item-nav > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.item-nav > a:hover{
+    background-color: #050505;
+}
+
+.title{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+/* estilos seccion main */
+
+.main{
+    margin: 10px 15px 0;
+    padding: 40px 10px;
+
+}
+
+.container-text{
+    text-align: center;
+}
+
+.container-text > h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.container-text > p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container-products{
+    /* border: 1px solid red; */
+    margin: 20px 0;
+}
+
+.card{
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    margin: 0 20px ;
+}
+
+.card-img{
+    width: 50%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    box-shadow: 3px 3px 4px  #05050554 ;
+    /* transition: all 2s ease-in-out; */
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.card-img:hover{
+    transform: scale(1.1);
+    border: 1px solid  #05050554;
+
+}
+
+.card-product-name{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.card-product-description{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+.footer{
+    margin: 0 15px;
+    padding: 40px 10px;
+    background-color: rgba(211, 211, 211, 0.347);
+
+}
+
+.footer > p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 15px;
+
+}
+
+.list-social-media{
+    list-style: none;
+    margin-top: 10px
+}
+
+.list-social-media > li > a {
+    text-decoration: none;
+    color: #050505;
+}
+
+.list-social-media > li {
+    display: inline-block;
+    margin: 0 15px;
+}
