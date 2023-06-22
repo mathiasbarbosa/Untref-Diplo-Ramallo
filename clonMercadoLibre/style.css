@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+.header{
+
+    width: 100%;
+    padding: 10px 25px;
+    background-color: #fff159;
+}
+
+.nav-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-top-logo{
+    height: 34px;
+    width: 134px;
+}
+
+.nav-top-publi{
+    max-width: 340px;
+    max-height: 39px;
+}
+
+.header form {
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.header  form > input {
+    padding: 10px;
+    width: 85%;
+}
+
+.header form button {
+    padding: 10px ;
+}
+
+.container-navigation{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-sections {
+    width: 30%;
+}
+
+.nav-profile{
+    width: 23%;
+}
+
+/* .nav-sections > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+} */
+.nav-header > ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    list-style: none;
+}
+
+.nav-sections > ul > li {
+    cursor: pointer;
+}
+
+/* .nav-profile  > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+} */
+
+/* Estilos para el main  */
+
+main{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* ! Revisar  */
+    height: 100vh;
+}
+
+.container-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #03030316;
+    /* height: 300px; */
+}
+
+.service{
+    display: flex;
+    gap: 20px;
+}
