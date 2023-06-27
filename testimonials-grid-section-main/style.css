@@ -1,0 +1,70 @@
+
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+.layout{
+    margin: 0 auto;
+    width: 80%;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "violeta violeta gris blanco"
+        "blanco2 azul azul blanco"
+    ;
+    gap: 25px;
+}
+
+.grid-item{
+    border-radius: 7px;
+    color: #fff;
+    padding: 15px;
+    box-shadow: 0px 0px 15px hsl(212, 39%, 90%);
+    padding: 30px;
+}
+
+.item-profile{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.item-profile > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.violeta {
+    grid-area: violeta;
+    background-color: hsl(263, 55%, 52%);
+}
+
+.gris{
+    grid-area: gris;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.blanco{
+    grid-area: blanco;
+    background-color: hsl(0, 0%, 100%);
+    color:   hsl(217, 19%, 35%)
+}
+
+.blanco2{
+    grid-area: blanco2;
+    background-color: hsl(0, 0%, 100%);
+    color:  hsl(217, 19%, 35%)
+}
+
+.azul{
+    grid-area: azul;
+    background-color: hsl(219, 29%, 14%);
+}
+
+.principal{
+    font-size: 25px;
+    font-weight: 800;
+}
