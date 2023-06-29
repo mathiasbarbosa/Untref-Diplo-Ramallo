@@ -10,11 +10,27 @@
     <header class="header">
         <div class="nav-top">
             <img class="nav-top-logo" src="./multimedia/img/logo__large_plus.png" alt="logo">
+            <img class="logo-small" src="./multimedia/img/logo__small.png" alt="">
             <form>
-                <input type="text">
+                <input type="text" placeholder="buscar producto...🔍">
                 <button>🔍</button>
             </form>
             <img class="nav-top-publi" src="./multimedia/img/publi.webp" alt="publicidad">
+
+            <!-- *nav responsive* -->
+            <input type="checkbox" name="" id="nav__checkbox" class="nav__checkbox" />
+            <label for="nav__checkbox" class="nav__toggle">
+                <!-- Menu -->
+                <svg class="menu" viewBox="0 0 448 512" width="100" title="bars">
+                    <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+                </svg>
+        
+                <!-- Close -->
+                <svg class="close" viewBox="0 0 384 512" width="100" title="times">
+                    <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+                </svg>
+            </label>
+            <!-- ** -->
         </div>
 
         <div class="container-navigation">
@@ -43,39 +59,126 @@
     </header>
 
     <main>
-        <section class="container-services">
-            <div class="service">
-                <a href=""><img src="./multimedia/svg/credit-card.svg" alt=""></a>
-                <div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        <section class="container-banner">
+            <img src="./multimedia/banner.webp" alt="banner">
+        </section>
+        <section class="container-sections">
+            <div class="container-services">
+                <div class="service">
+                    <a href=""><img src="./multimedia/svg/credit-card.svg" alt=""></a>
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                        <a href="">Con lo que sea</a>
+                    </div>
+                </div>
+    
+                <div class="service">
+                    <a href=""><img src="./multimedia/svg/debit-card.svg" alt=""></a>
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
                     <a href="">Con lo que sea</a>
+                    </div>
                 </div>
-            </div>
-
-            <div class="service">
-                <a href=""><img src="./multimedia/svg/debit-card.svg" alt=""></a>
-                <div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                <a href="">Con lo que sea</a>
+    
+                <div class="service">
+                    <a href=""><img src="./multimedia/svg/mercado-creditsv2.svg" alt=""></a>
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    <a href="">Con lo que sea</a>
+                    </div>
                 </div>
-            </div>
-
-            <div class="service">
-                <a href=""><img src="./multimedia/svg/mercado-creditsv2.svg" alt=""></a>
-                <div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                <a href="">Con lo que sea</a>
-                </div>
-            </div>
-
-            <div class="service">
-                <a href=""><img src="./multimedia/svg/payment-agreement.svg" alt=""></a>
-                <div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                <a href="">Con lo que sea</a>
+    
+                <div class="service">
+                    <a href=""><img src="./multimedia/svg/payment-agreement.svg" alt=""></a>
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    <a href="">Con lo que sea</a>
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="container-sections">
+            <div>
+                <div class="title-section">
+                    <h2>Ofertas</h2>
+                    <a href="#">Ver mas</a>
+                </div>
+                <div class="container-cards">
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__header__img" class="card" src="./multimedia/productos/celuOferta.webp" alt="">
+                        </div>
+                        <div class="card__body">
+                            <h3>$90.999</h3>
+                            <small>30% off</small>
+                            <div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                                <p>Envio gratis ⚡FULL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__header__img" class="card" src="./multimedia/productos/celuOferta.webp" alt="">
+                        </div>
+                        <div class="card__body">
+                            <h3>$90.999</h3>
+                            <small>30% off</small>
+                            <div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                                <p>Envio gratis ⚡FULL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__header__img" class="card" src="./multimedia/productos/celuOferta.webp" alt="">
+                        </div>
+                        <div class="card__body">
+                            <h3>$90.999</h3>
+                            <small>30% off</small>
+                            <div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                                <p>Envio gratis ⚡FULL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__header__img" class="card" src="./multimedia/productos/celuOferta.webp" alt="">
+                        </div>
+                        <div class="card__body">
+                            <h3>$90.999</h3>
+                            <small>30% off</small>
+                            <div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                                <p>Envio gratis ⚡FULL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__header__img" class="card" src="./multimedia/productos/celuOferta.webp" alt="">
+                        </div>
+                        <div class="card__body">
+                            <h3>$90.999</h3>
+                            <small>30% off</small>
+                            <div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                                <p>Envio gratis ⚡FULL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
