@@ -1,0 +1,71 @@
+@import './mixin.scss';
+
+/* * Header estilos *  */
+
+
+.nav__top{
+    width: 100%;
+    display: flex;
+    justify-content:space-between ;
+    background-color: $color-1;
+    padding: 1rem;
+}
+
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    li{
+        cursor: pointer;
+        font-size: $font-1
+    }
+    & li:hover{
+        @include hover($color-2)
+
+    }
+}
+
+.nav__bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.nav__icon{
+    width: 100px;
+}
+
+.banner{
+    border: 1px solid;
+    background-image: url('../multimedia/banner-actividad.jpg');
+    /* background-size: 100% ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .banner__data{
+        padding: 50px;
+        color: $color-2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .banner__title{
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    
+    .banner__desc{
+        font-size: $font-2;
+        margin-bottom: 2rem;
+    }
+    
+}
+

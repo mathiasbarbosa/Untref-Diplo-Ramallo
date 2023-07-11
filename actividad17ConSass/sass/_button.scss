@@ -1,0 +1,19 @@
+
+@mixin button(){
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.button--primary{
+    @include button;
+    background-color:  $color-2;
+    color: $color-1;
+}
+
+.button--secondary{
+    @include button;
+    background-color:  $color-1;
+    color: $color-2;
+}

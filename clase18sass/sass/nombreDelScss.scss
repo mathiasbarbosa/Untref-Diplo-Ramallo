@@ -1,0 +1,25 @@
+h1{
+    color: orange;
+}
+
+div{
+    margin: 0 auto;
+    ul{
+        list-style: none;
+        li{
+            text-decoration: none;
+            .links{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+main{
+    width: 100%;
+    border: 1px solid orange;
+}
+
+h4{
+    color: violet;
+}

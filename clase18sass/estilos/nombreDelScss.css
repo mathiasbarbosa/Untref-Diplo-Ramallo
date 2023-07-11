@@ -1,0 +1,25 @@
+h1 {
+  color: orange;
+}
+
+div {
+  margin: 0 auto;
+}
+div ul {
+  list-style: none;
+}
+div ul li {
+  text-decoration: none;
+}
+div ul li .links {
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  border: 1px solid orange;
+}
+
+h4 {
+  color: violet;
+}/*# sourceMappingURL=nombreDelScss.css.map */
